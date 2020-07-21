@@ -1,0 +1,87 @@
+.mobill__block{
+    display: flex;
+}
+.mobill__img{
+    margin-top: 5%;
+    height: 616px;
+}
+.mobill__text{
+    margin-top: 10%;
+    h3{
+        font-size: 30px;
+        font-family: 'Raleway SemiBold';
+        font-weight: 500;
+        font-style: normal;
+        color: #555555;
+    }
+    p{
+        font-family: 'Montserrat Light';
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        color: #8c8c8c;
+    }
+    li{
+        margin-bottom: 20px;
+        font-family: 'Montserrat Light';
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        color: #8c8c8c;
+    }
+}
+.circle__icon-mobill{
+    color: #c7b299;
+    padding-right: 5%;
+}
+@media screen and (max-width: 1170px){
+    .mobill__text {
+        p{
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.9em;
+        }
+        li{
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .mobill__text {
+        h3{
+            font-size: 20px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.5em;
+        }
+    }
+}
+@media screen and (max-width: 425px){
+    .mobill__img{
+       display: none;
+    }
+    .mobill__text {
+        h3{
+            font-size: 28px;
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            margin-bottom: 10px;
+            font-size: 15px;
+            line-height: 1.5em;
+        }
+    } 
+}
+@media screen and (max-width: 375px){
+    .mobill__text {
+        p{
+            font-size: 10px;
+            line-height: 1.5em;
+        }
+    }
+}

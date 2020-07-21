@@ -1,0 +1,300 @@
+.header__box{
+    position: absolute;
+    margin-top: 2%;
+    display: flex;
+    z-index: 2;
+}
+.header__logo{
+    display: flex;
+    justify-items: center;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    h1{
+        color: #ffffff;
+        font-size: 34px;
+        font-family: 'Raleway Regular';
+        font-weight: normal;
+        font-style: normal;
+        margin: 0;
+        padding-top: 5%;
+    }
+}
+.burger-icon{
+    color: #ffff;
+    position: absolute;
+    z-index: 12;
+    cursor: pointer;
+    display: none;
+}
+.clouse-icon{
+    color: #ffff;
+    position: absolute;
+    z-index: 12;
+    display: none;
+    cursor: pointer;
+}
+.main{
+    position: relative;
+}
+.main__list{
+    li{
+        display: inline;
+        text-align: center;
+        padding-right: 50px;
+        
+    }
+    a{
+        color: #ffff;
+        font-size: 14px;
+        font-family: 'Montserrat Light';
+        font-weight: normal;
+        font-style: normal;
+        
+    }
+    a:hover{
+        color: #c7b299;
+    }
+}
+.tablet-phone{
+    display: none;
+}
+.main__list-tablet-phone{
+    display: none;
+}
+.header__icon{
+    padding-top: 1%;
+    img{
+        padding-left: 10px;
+    }
+}
+.slogan__text-box{
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 35%;
+    h2{
+        font-size: 36px;
+        color: #ffffff;
+        font-family: 'Raleway Medium';
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+    }
+    h3{
+        color: #ffffff;
+        font-family: 'Raleway ExtraBold';
+        font-size: 52px;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+    }
+    p{
+        color: #ffffff;
+        font-size: 16px;
+        font-family: 'Montserrat Light';
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 6%;
+    }
+    a{
+        color: #ffffff;
+        font-family: 'Raleway ExtraBold';
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        padding: 15px 40px;
+        border: 2px solid #998675;
+    }
+    a:hover{
+        background-color: #998675;
+        -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+        box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+    }
+}
+/* slider */
+.slider__item__box img{
+    width: auto;
+    height: 820px;
+    z-index: 2;
+    // margin-left: 8px;
+}
+.slider__bg-color{
+    width: auto;
+    height: 820px;
+    background-color: rgba(0, 0, 0, 0.438);    
+    position: absolute;
+    z-index: 3;
+}
+@media screen and (max-width: 1170px){
+    .header__logo{
+        position: relative;
+        right: 0;
+    }
+    .header__icon,
+    .main{
+        display: none; 
+    }
+    .burger-icon{
+        display: block;
+        font-size: 35px;
+        right: 22px;
+        top: 25px;
+    }
+    .clouse-icon{
+        z-index: 13;
+        display: none;
+        font-size: 35px;
+        right: 30px;
+        top: 20px;
+    }
+    .main__media__tablet-phone{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        z-index: 13;
+        left: 500px;
+    }
+    .tablet-phone{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background: rgb(156, 121, 121);
+        border: 5px solid rgb(133, 128, 128);
+        border-radius: 25%;
+        z-index: 13;
+    }
+    .main__list-tablet-phone{
+        text-align: center;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 0;
+        margin-left: 60px;
+        margin-right: 70px;
+        z-index: 13;
+        li{
+            padding-bottom: 5px;
+            z-index: 13;
+        }
+        a{
+            color: #ffff;
+            z-index: 13;
+            font-size: 18px;
+            font-family: 'Montserrat Light';
+            font-weight: 600;
+            font-style: normal;
+            line-height: 1.4em;
+        } 
+        a:hover{
+            color: #c7b299;
+        }
+    }
+    .clouse-icon,
+    .main__list-tablet-phone,
+    .main__tablet-phone:hover {
+        display: block;
+    }
+    .slogan__text-box{
+        z-index: 3;
+        position: absolute;
+        text-align: center;
+        top: 45%;
+        left: 25%;
+        h2{
+            font-size: 36px;
+            color: #ffffff;
+            font-family: 'Raleway Medium';
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+        h3{
+            color: #ffffff;
+            font-family: 'Raleway ExtraBold';
+            font-size: 52px;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+        p{
+            color: #ffffff;
+            font-size: 16px;
+            font-family: 'Montserrat Light';
+            font-weight: 600;
+            font-style: normal;
+            margin-bottom: 6%;
+        }
+        a{
+            color: #ffffff;
+            font-family: 'Raleway ExtraBold';
+            font-size: 14px;
+            font-weight: 600;
+            font-style: normal;
+            padding: 15px 40px;
+            border: 2px solid #998675;
+        }
+        a:hover{
+            background-color: #998675;
+            -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+            -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+            box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+        }
+    }
+    /* slider */
+    .slider__item__box img{
+        height: 820px;
+        z-index: 2;
+        margin: 0;
+    }
+    .slider__bg-color{
+        height: 420px;
+        background-color: rgba(0, 0, 0, 0.438);   
+        position: absolute; 
+        z-index: 3;
+    }
+}
+@media screen and (max-width: 768px){
+    .main__media__tablet-phone{
+        left: 250px;
+    }
+    .slogan__text-box{
+        left: 15%;    
+    }
+}
+@media screen and (max-width: 425px){ 
+    .header__logo{
+        left: 0;
+        top: 10px;
+        h1{
+            display: none;
+        }
+    }
+    .main__media__tablet-phone{
+        left: 40px;
+    }
+    .header__icon,
+    .main,
+    .slogan__text-box{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .main__media__tablet-phone{
+        left: -10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .header__box{
+        right: 0;
+    }
+    .header__logo{
+        left: 40px;
+    }
+    .main__media__tablet-phone{
+        left: -15px;
+    }
+}

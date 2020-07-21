@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Raleway SemiBold';
+	src: url('../fonts/raleway_semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/raleway_semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/raleway_semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/raleway_semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/raleway_semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/raleway_semibold.svg#raleway_semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

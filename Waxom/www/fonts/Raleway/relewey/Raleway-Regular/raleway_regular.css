@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Raleway Regular';
+	src: url('../fonts/raleway_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/raleway_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/raleway_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/raleway_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/raleway_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/raleway_regular.svg#raleway_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

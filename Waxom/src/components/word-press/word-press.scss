@@ -1,0 +1,175 @@
+.wordpress__bg-color{
+    width: 100%;
+    height: 120px;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(11%, rgba(37,29,27,1)), color-stop(23%, rgba(42,32,28,1)), color-stop(37%, rgba(54,39,32,1)), color-stop(53%, rgba(72,48,37,1)), color-stop(66%, rgba(66,45,35,1)), color-stop(84%, rgba(72,48,37,1)), color-stop(100%, rgba(78,52,39,1)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4e3427', GradientType=1 );
+}
+.wordpress__block{
+    display: inline-flex;
+    margin-top: 3%;
+    width: 100%;
+}
+.wordpress__text-box {
+    h3{
+        margin: 0;
+        padding-top: 2%;
+        color: #ffff;
+        font-size: 28px;
+        font-family: 'Raleway Regular';
+        font-weight: normal;
+        font-style: normal;
+    }
+    span{
+        color: #c7b299;
+    }
+    p{
+        font-size: 18px;
+        font-family: 'Montserrat Light';
+        font-weight: 100;
+        font-style: normal;
+        color: #615855;
+        margin: 0;
+    }
+}
+.wordpress__btn{
+    margin-left: 35%;
+    margin-top: 1%;
+    p{
+        text-align: right;
+    }
+    a{
+        color: white;
+        font-size: 14px;
+        font-family: 'Raleway ExtraBold';
+        font-weight: 600;
+        padding: 15px 40px;
+        border: 2px solid #998675;
+    }
+    a:hover{
+        background-color: #998675;
+        -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+         box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+    }
+}
+@media screen and (max-width: 1170px){
+    .wordpress__bg-color{
+        width: 100%;
+        height: 160px;
+        background: rgba(0,0,0,1);
+        background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(11%, rgba(37,29,27,1)), color-stop(23%, rgba(42,32,28,1)), color-stop(37%, rgba(54,39,32,1)), color-stop(53%, rgba(72,48,37,1)), color-stop(66%, rgba(66,45,35,1)), color-stop(84%, rgba(72,48,37,1)), color-stop(100%, rgba(78,52,39,1)));
+        background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+        background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(37,29,27,1) 11%, rgba(42,32,28,1) 23%, rgba(54,39,32,1) 37%, rgba(72,48,37,1) 53%, rgba(66,45,35,1) 66%, rgba(72,48,37,1) 84%, rgba(78,52,39,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4e3427', GradientType=1 );
+    }
+    .wordpress__block{
+        display: block;
+        margin-top: 2%;
+        margin-left: 70px;
+        width: auto;
+    }
+    .wordpress__text-box{
+        text-align: center;
+    }
+    .wordpress__text-box {
+        h3{
+            padding-top: 2%;
+            color: #ffff;
+            font-size: 28px;
+            font-family: 'Raleway Regular';
+            font-weight: 600;
+            font-style: normal;
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Montserrat Light';
+            font-weight: 600;
+            font-style: normal;
+            color: #615855;
+            margin-top: 5px;
+        }
+    }
+    .wordpress__btn{
+        margin-left: 35%;
+        margin-top: 40px;
+        p{
+            text-align: right;
+        }
+        a{
+            color: white;
+            font-size: 14px;
+            font-family: 'Raleway ExtraBold';
+            font-weight: 600;
+            padding: 15px 40px;
+            border: 2px solid #998675;
+        }
+        a:hover{
+            background-color: #998675;
+            -webkit-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+            -moz-box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+             box-shadow: 9px 10px 19px 0px rgba(0,0,0,0.26);
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .wordpress__text-box {
+        h3{
+            font-size: 22px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+@media screen and (max-width: 425px){
+    .wordpress__block{
+        margin-top: 0;
+        margin-left: -10px;
+    }
+    .wordpress__text-box {
+        h3{
+            font-size: 18px;
+            padding-top: 20px;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 600;
+        }
+    }
+    .wordpress__btn{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 320px){
+    .wordpress__bg-color{  
+        height: 120px;
+    }
+    .wordpress__text-box {
+        h3{
+            font-size: 14px;
+            padding-top: 20px;
+        }
+        p{
+            font-size: 8px;
+            font-weight: 800;
+        }
+    }
+    .wordpress__btn{
+        margin-top: 20px;
+        margin-left: 30%;
+        a{
+            font-size: 11px;
+            padding: 10px 20px;
+        }
+    }
+}
